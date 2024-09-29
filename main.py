@@ -111,7 +111,7 @@ while True:
                 print("Opção inválida!")
 
     #segunda escolha do menu principal
-    if user == 2:
+    elif user == 2:
         pizza_doce()
         escolha = int(input("Opção desejada:"))
 
@@ -172,7 +172,7 @@ while True:
                 print("Opção inválida!") 
     
     #terceira escolha do menu principal
-    if user == 3:
+    elif user == 3:
         lanches()
         escolha = int(input("Opção desejada:"))
 
@@ -233,7 +233,7 @@ while True:
                 print("Opção inválida!")
 
     #quarta escolha do menu principal
-    if user == 4:
+    elif user == 4:
         bebidas()
         escolha = int(input("Opção desejada:"))
 
@@ -292,3 +292,8 @@ while True:
                 continue
             else:
                 print("Opção inválida!")
+
+    
+    #outra opção 
+    else:
+        print("Opção inválida. Tente novamente!")
