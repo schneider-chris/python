@@ -43,171 +43,231 @@ def finalizar():
 #apresentação
 print("Olá!")
 nome = input("Digite seu nome aqui:")
-print("Seja bem vindo," + nome)
+print("Seja bem vindo," + nome )
+print()
 
 while True:
     menu()
+    print()
     user = int(input("Digite o número da opção desejada:"))
 
     #primeira escolha do menu principal
     if user == 1:
+        print()
         pizza_salgada()
+        print()
         escolha = int(input("Opção desejada:"))
 
         #primeira pizza salgada
         if escolha == 1:
-            print("Você escolheu a pizza de Mussarela.")
+            print()
+            print("Você escolheu a pizza de Mussarela.\n")
             finalizar()
+            print()
             opção = int(input("O que você deseja?"))
             
             if opção == 1:
+                print()
                 print("Pedido finalizado! Obrigado.")
                 break
             elif opção == 2:
+                print()
                 continue
             else:
-                print("Opção inválida!")
+                print()
+                print("Opção inválida!\n")
 
         #segunda pizza salgada
         if escolha == 2:
-            print("Você escolheu a pizza de Calabresa.")
+            print()
+            print("Você escolheu a pizza de Calabresa.\n")
             finalizar()
+            print()
             opção = int(input("O que você deseja?"))
             
             if opção == 1:
+                print()
                 print("Pedido finalizado! Obrigado.")
                 break
             elif opção == 2:
+                print()
                 continue
             else:
-                print("Opção inválida!")
+                print()
+                print("Opção inválida!\n")
 
         #terceira pizza salgada
         if escolha == 3:
-            print("Você escolheu a pizza de Frango com Catupiry.")
+            print()
+            print("Você escolheu a pizza de Frango com Catupiry.\n")
             finalizar()
+            print()
             opção = int(input("O que você deseja?"))
             
             if opção == 1:
+                print()
                 print("Pedido finalizado! Obrigado.")
                 break
             elif opção == 2:
+                print()
                 continue
             else:
-                print("Opção inválida!")
+                print()
+                print("Opção inválida!\n")
 
         #quarta pizza salgada
         if escolha == 4:
-            print("Você escolheu a pizza de Strogonoff de Carne.")
+            print()
+            print("Você escolheu a pizza de Strogonoff de Carne.\n")
             finalizar()
+            print()
             opção = int(input("O que você deseja?"))
             
             if opção == 1:
+                print()
                 print("Pedido finalizado! Obrigado.")
                 break
             elif opção == 2:
+                print()
                 continue
             else:
-                print("Opção inválida!")
+                print()
+                print("Opção inválida!\n")
 
     #segunda escolha do menu principal
     elif user == 2:
+        print()
         pizza_doce()
+        print()
         escolha = int(input("Opção desejada:"))
 
         #primeira pizza doce
         if escolha == 1:
-            print("Você escolheu a pizza de Brigadeiro.")
+            print()
+            print("Você escolheu a pizza de Brigadeiro.\n")
             finalizar()
+            print()
             opção = int(input("O que você deseja?"))
             
             if opção == 1:
+                print()
                 print("Pedido finalizado! Obrigado.")
                 break
             elif opção == 2:
+                print()
                 continue
             else:
-                print("Opção inválida!")
+                print()
+                print("Opção inválida!\n")
 
         #segunda pizza doce
         if escolha == 2:
-            print("Você escolheu a pizza de Sensação.")
+            print()
+            print("Você escolheu a pizza de Sensação.\n")
             finalizar()
+            print()
             opção = int(input("O que você deseja?"))
             
             if opção == 1:
+                print()
                 print("Pedido finalizado! Obrigado.")
                 break
             elif opção == 2:
+                print()
                 continue
             else:
-                print("Opção inválida!")
+                print()
+                print("Opção inválida!\n")
 
         #terceira pizza doce
         if escolha == 3:
-            print("Você escolheu a pizza de Prestígio.")
+            print()
+            print("Você escolheu a pizza de Prestígio.\n")
             finalizar()
+            print()
             opção = int(input("O que você deseja?"))
             
             if opção == 1:
+                print()
                 print("Pedido finalizado! Obrigado.")
                 break
             elif opção == 2:
+                print()
                 continue
             else:
-                print("Opção inválida!")
+                print()
+                print("Opção inválida!\n")
 
         #quarta pizza doce
         if escolha == 4:
-            print("Você escolheu a pizza de Romeu e Julieta.")
+            print()
+            print("Você escolheu a pizza de Romeu e Julieta.\n")
             finalizar()
+            print()
             opção = int(input("O que você deseja?"))
             
             if opção == 1:
+                print()
                 print("Pedido finalizado! Obrigado.")
                 break
             elif opção == 2:
+                print()
                 continue
             else:
-                print("Opção inválida!") 
+                print()
+                print("Opção inválida!\n") 
     
     #terceira escolha do menu principal
     elif user == 3:
+        print()
         lanches()
+        print()
         escolha = int(input("Opção desejada:"))
 
         #primeiro lanche
         if escolha == 1:
-            print("Você escolheu o lanche X-frango.")
+            print()
+            print("Você escolheu o lanche X-frango.\n")
             finalizar()
-            opção = int(input("O que você deseja?"))
+            print()
+            opção = int(input("O que você deseja?\n"))
             
             if opção == 1:
+                print()
                 print("Pedido finalizado! Obrigado.")
                 break
             elif opção == 2:
+                print()
                 continue
             else:
-                print("Opção inválida!")
+                print()
+                print("Opção inválida!\n")
 
         #segundo lanche
         if escolha == 2:
-            print("Você escolheu o lanche X-bacon.")
+            print()
+            print("Você escolheu o lanche X-bacon.\n")
             finalizar()
+            print()
             opção = int(input("O que você deseja?"))
             
             if opção == 1:
+                print()
                 print("Pedido finalizado! Obrigado.")
                 break
             elif opção == 2:
+                print()
                 continue
             else:
-                print("Opção inválida!")
+                print()
+                print("Opção inválida!\n")
 
         #terceiro lanche
         if escolha == 3:
-            print("Você escolheu o lanche X-salada.")
+            print()
+            print("Você escolheu o lanche X-salada.\n")
             finalizar()
+            print()
             opção = int(input("O que você deseja?"))
             
             if opção == 1:
@@ -216,84 +276,110 @@ while True:
             elif opção == 2:
                 continue
             else:
-                print("Opção inválida!")
+                print("Opção inválida!\n")
 
         #quarto lanche
         if escolha == 4:
-            print("Você escolheu o lanche X-egg.")
+            print()
+            print("Você escolheu o lanche X-egg.\n")
             finalizar()
+            print()
             opção = int(input("O que você deseja?"))
             
             if opção == 1:
+                print()
                 print("Pedido finalizado! Obrigado.")
                 break
             elif opção == 2:
+                print()
                 continue
             else:
-                print("Opção inválida!")
+                print()
+                print("Opção inválida!\n")
 
     #quarta escolha do menu principal
     elif user == 4:
+        print()
         bebidas()
+        print()
         escolha = int(input("Opção desejada:"))
 
         #primeira bebida
         if escolha == 1:
-            print("Você escolheu Coca-Cola.")
+            print()
+            print("Você escolheu Coca-Cola.\n")
             finalizar()
+            print()
             opção = int(input("O que você deseja?"))
             
             if opção == 1:
+                print()
                 print("Pedido finalizado! Obrigado.")
                 break
             elif opção == 2:
+                print()
                 continue
             else:
-                print("Opção inválida!")
+                print()
+                print("Opção inválida!\n")
 
         #segunda bebida
         if escolha == 2:
-            print("Você escolheu Guaraná.")
+            print()
+            print("Você escolheu Guaraná.\n")
             finalizar()
+            print()
             opção = int(input("O que você deseja?"))
             
             if opção == 1:
+                print()
                 print("Pedido finalizado! Obrigado.")
                 break
             elif opção == 2:
+                print()
                 continue
             else:
-                print("Opção inválida!")
+                print()
+                print("Opção inválida!\n")
 
         #terceira bebida
         if escolha == 3:
-            print("Você escolheu Fanta.")
+            print()
+            print("Você escolheu Fanta.\n")
             finalizar()
+            print()
             opção = int(input("O que você deseja?"))
             
             if opção == 1:
+                print()
                 print("Pedido finalizado! Obrigado.")
                 break
             elif opção == 2:
+                print()
                 continue
             else:
-                print("Opção inválida!")
+                print()
+                print("Opção inválida!\n")
 
         #quarta bebida
         if escolha == 4:
-            print("Você escolheu Água.")
+            print()
+            print("Você escolheu Água.\n")
             finalizar()
-            opção = int(input("O que você deseja?"))
+            print()
+            opção = int(input("O que você deseja"))
             
             if opção == 1:
+                print()
                 print("Pedido finalizado! Obrigado.")
                 break
             elif opção == 2:
+                print()
                 continue
             else:
-                print("Opção inválida!")
+                print()
+                print("Opção inválida!\n")
 
-    
     #outra opção 
     else:
         print("Opção inválida. Tente novamente!")
